@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Progressive tool disclosure",
+    "description": "Keeps a small core of tools directly callable and defers the rest: the model finds a deferred tool with tool_search, reads its exact parameters with tool_inspect, and runs it with tool_call. Deferred tools stay registered and still pass through the same permission, guard, and result policy as a direct call, so only this request's tool declarations shrink. On a profile with about 90 declared tools, the declaration list drops to about 31 and the schema to about 29 KB from about 65 KB. Plugin management and everyday file, shell, job, and delegation tools stay direct, so deferred tools can always be found and run. Remove the bundle to declare every tool directly again.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img">
+  <!-- Text-free illustration: on the left, a short list of always-declared core tools;
+       on the right, a search lens over a large stack of deferred tools, with one
+       deferred tool flowing through into a single call result. -->
+  <g fill="none" stroke="#3f7fbf" stroke-width="2">
+    <rect x="32" y="52" width="196" height="196" rx="14" opacity="0.55"/>
+  </g>
+
+  <!-- core tool rows (always declared) -->
+  <g fill="#3f7fbf">
+    <rect x="54" y="80" width="120" height="14" rx="7"/>
+    <rect x="54" y="112" width="96" height="14" rx="7" opacity="0.85"/>
+    <rect x="54" y="144" width="132" height="14" rx="7" opacity="0.7"/>
+    <rect x="54" y="176" width="80" height="14" rx="7" opacity="0.55"/>
+    <rect x="54" y="208" width="104" height="14" rx="7" opacity="0.4"/>
+  </g>
+
+  <!-- deferred stack -->
+  <g fill="#7f8c9b">
+    <rect x="300" y="56" width="176" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="80" width="150" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="104" width="196" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="128" width="132" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="152" width="184" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="176" width="144" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="200" width="168" height="12" rx="6" opacity="0.45"/>
+    <rect x="300" y="224" width="120" height="12" rx="6" opacity="0.45"/>
+  </g>
+
+  <!-- search lens over the deferred stack -->
+  <g>
+    <circle cx="470" cy="140" r="52" fill="none" stroke="#1f4f80" stroke-width="6"/>
+    <line x1="508" y1="178" x2="544" y2="214" stroke="#1f4f80" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="470" cy="140" r="52" fill="#1f4f80" opacity="0.08"/>
+  </g>
+
+  <!-- one deferred tool flowing through into a result row -->
+  <g>
+    <path d="M556 244 L588 244" stroke="#6aa84f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M580 236 L590 244 L580 252" fill="none" stroke="#6aa84f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="238" y="252" width="96" height="16" rx="8" fill="#6aa84f" opacity="0.85"/>
+  </g>
+</svg>

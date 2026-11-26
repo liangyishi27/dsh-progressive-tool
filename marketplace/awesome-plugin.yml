@@ -1,0 +1,6 @@
+url: https://github.com/liangyishi27/dsh-progressive-tool
+name: liangyishi27/dsh-progressive-tool
+category: tools
+description:
+  en: 'Hermes-style progressive tool disclosure: keeps core tools directly callable and moves the long tail behind search, inspect, and invoke, cutting per-request schema size roughly in half.'
+  zh: 'Hermes 风格渐进式工具披露：核心工具保持直通，长尾工具经搜索、查看、调用访问，可将每请求工具 schema 开销降低约一半。'

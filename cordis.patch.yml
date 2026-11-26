@@ -1,0 +1,9 @@
+# Bundle patch for dsh-progressive-tool.
+#
+# The bundle inserts one Host row. The row's `config` is optional; the defaults
+# keep the shipped core tools directly callable and defer the long tail. Add a
+# `config` mapping here (for example `expose`, `defer`, `maxResults`) to tune
+# the policy for this profile.
+- insert:
+    - id: dsh-progressive-tool
+      name: dsh-progressive-tool

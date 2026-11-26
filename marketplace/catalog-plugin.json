@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "liangyishi27/dsh-progressive-tool",
+  "name": "dsh-progressive-tool",
+  "repository": "https://github.com/liangyishi27/dsh-progressive-tool",
+  "category": "tools",
+  "description": {
+    "en": "Progressive tool disclosure: keeps core tools directly callable and moves the long tail behind search, inspect and invoke, cutting per-request tool schema size from about 65 KB to 29 KB.",
+    "zh": "渐进式工具披露：核心工具保持直接调用，长尾工具经搜索、查看、调用访问，将每请求工具 schema 从约 65 KB 降到 29 KB。"
+  },
+  "added": "2026-11-26"
+}

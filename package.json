@@ -1,0 +1,46 @@
+{
+  "name": "dsh-progressive-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hermes-style progressive tool disclosure for DeepSeek Harness: core tools stay directly callable, the long tail is found by search, inspected on demand, and invoked through one wrapper.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangyishi27/dsh-progressive-tool.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "screenshots.json"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "tools",
+    "progressive-disclosure"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.0-0 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
